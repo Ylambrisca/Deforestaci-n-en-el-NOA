@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.12.1">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2</DATASET_NAME>
+    </Dataset_Id>
+    <Dataset_Use>
+        <DATASET_COMMENTS>LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2</DATASET_COMMENTS>
+    </Dataset_Use>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>LANDSAT_LEVEL2</PRODUCT_TYPE>
+        <PRODUCT_SCENE_RASTER_START_TIME>30-DEC-2017 14:12:54.115000</PRODUCT_SCENE_RASTER_START_TIME>
+        <PRODUCT_SCENE_RASTER_STOP_TIME>30-DEC-2017 14:12:54.115000</PRODUCT_SCENE_RASTER_STOP_TIME>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>0</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>1</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>2</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>3</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>4</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>5</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>6</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>7</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>8</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>9</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Flag_Coding name="pixel_qa">
+        <Flag>
+            <Flag_Name>fill</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>clear</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Clear</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>water</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Water</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>snow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Snow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Cloud</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_one</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Cloud confidence bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_two</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Cloud confidence bit two</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cirrus_confidence_one</Flag_Name>
+            <Flag_Index>256</Flag_Index>
+            <Flag_description>Cirrus confidence bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cirrus_confidence_two</Flag_Name>
+            <Flag_Index>512</Flag_Index>
+            <Flag_description>Cirrus confidence bit two</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>terrain_oclusion</Flag_Name>
+            <Flag_Index>1024</Flag_Index>
+            <Flag_description>Terrain Occlusion</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="saturation">
+        <Flag>
+            <Flag_Name>data_fill_flag</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Designated Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band1_saturated</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Band 1 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band2_saturated</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Band 2 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band3_saturated</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Band 3 Data Saturation Fla</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band4_saturated</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Band 4 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band5_saturated</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Band 5 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band6_saturated</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Band 6 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band7_saturated</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Band 7 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band8_saturated</Flag_Name>
+            <Flag_Index>256</Flag_Index>
+            <Flag_description>N/A</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band9_saturated</Flag_Name>
+            <Flag_Index>512</Flag_Index>
+            <Flag_description>Band 9 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band10_saturated</Flag_Name>
+            <Flag_Index>1024</Flag_Index>
+            <Flag_description>Band 10 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band11_saturated</Flag_Name>
+            <Flag_Index>2048</Flag_Index>
+            <Flag_description>Band 11 Data Saturation Flag</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="aerosol_flags">
+        <Flag>
+            <Flag_Name>fill</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>valid_aerosol_retrieval</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>valid aerosol retrieval (center pixel of NxN window)</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>water</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>water pixel (or water pixel was used in the fill-the-window interpolation)</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_cirrus</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Cloud or cirrus</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>non_center</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>non-center window pixel for which aerosol was interpolated from surrounding NxN center pixels</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>aerosol_level_one</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Aerosol level bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>aerosol_level_two</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Aerosol level bit two</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Raster_Dimensions>
+        <NCOLS>2401</NCOLS>
+        <NROWS>1541</NROWS>
+        <NBANDS>10</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/pixel_qa.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/saturation.hdr" />
+            <BAND_INDEX>1</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band1.hdr" />
+            <BAND_INDEX>2</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band2.hdr" />
+            <BAND_INDEX>3</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band3.hdr" />
+            <BAND_INDEX>4</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band4.hdr" />
+            <BAND_INDEX>5</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band5.hdr" />
+            <BAND_INDEX>6</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band6.hdr" />
+            <BAND_INDEX>7</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/sr_band7.hdr" />
+            <BAND_INDEX>8</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2.data/aerosol_flags.hdr" />
+            <BAND_INDEX>9</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Image_Display>
+        <Band_Statistics>
+            <BAND_INDEX>3</BAND_INDEX>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.00926406224425591</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.05034296777830605</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.09142187331235618</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+        <Band_Statistics>
+            <BAND_INDEX>4</BAND_INDEX>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.03073125027003698</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.08020136815048318</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.12967148603092937</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+        <Band_Statistics>
+            <BAND_INDEX>5</BAND_INDEX>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.017946875316283695</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.09679531391043383</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.17564375250458397</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+        <Band_Statistics>
+            <BAND_INDEX>8</BAND_INDEX>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.044919138702880446</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.19191620256810893</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.3389132664333374</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+    </Image_Display>
+    <Masks>
+        <Mask type="Maths">
+            <NAME value="Fill" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Fill" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.fill" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Clear" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Clear" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.clear" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Water" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Water" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Shadow" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Shadow" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Snow" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Snow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.snow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cloud" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_None" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence None" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa.cloud_confidence_one and not pixel_qa.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Low" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Low" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa.cloud_confidence_one and pixel_qa.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Medium" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Medium" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cloud_confidence_one and not pixel_qa.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_High" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence High" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cloud_confidence_one and pixel_qa.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_None" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence None" />
+            <COLOR red="178" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa.cirrus_confidence_one and not pixel_qa.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_Low" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence Low" />
+            <COLOR red="124" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa.cirrus_confidence_one and pixel_qa.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_Medium" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence Medium" />
+            <COLOR red="255" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cirrus_confidence_one and not pixel_qa.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_High" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence High" />
+            <COLOR red="178" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.cirrus_confidence_one and pixel_qa.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Terrain_Oclusion" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Terrain Oclusion" />
+            <COLOR red="124" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa.terrain_oclusion" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="No saturation" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="No bands contain saturation" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not saturation.data_fill_flag" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 1 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 1 saturated" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band1_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 2 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 2 saturated" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band2_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 3 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 3 saturated" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band3_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 4 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 4 saturated" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band4_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 5 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 5 saturated" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band5_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 6 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 6 saturated" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band6_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 7 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 7 saturated" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band7_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 9 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 9 saturated" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band9_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 10 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 10 saturated" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band10_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 11 saturated" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 11 saturated" />
+            <COLOR red="178" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation.Band11_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Fill" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Fill" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.fill" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Valid" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Valid aerosol retrieval" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.valid_aerosol_retrieval" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Water" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="water pixel" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_cloud_cirrus" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="cloud/cirrus" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.cloud_cirrus" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_cloud_shadow" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="cloud shadow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_non_center" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="non-center window pixel for which aerosol was interpolated from surrounding NxN center pixels" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.non_center" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_climatology" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level climatology" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not aerosol_flags.aerosol_level_one and not aerosol_flags.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_low" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level low" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not aerosol_flags.aerosol_level_one and aerosol_flags.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_medium" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level medium" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.aerosol_level_one and not aerosol_flags.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_high" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level high" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags.aerosol_level_one and aerosol_flags.aerosol_level_two" />
+        </Mask>
+    </Masks>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION>Quality Band</BAND_DESCRIPTION>
+            <BAND_NAME>pixel_qa</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint16</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>pixel_qa</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>1</BAND_INDEX>
+            <BAND_DESCRIPTION>Saturation Band</BAND_DESCRIPTION>
+            <BAND_NAME>saturation</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint16</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>saturation</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>2</BAND_INDEX>
+            <BAND_DESCRIPTION>band 1 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band1</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>440.0</BAND_WAVELEN>
+            <BANDWIDTH>20.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>3</BAND_INDEX>
+            <BAND_DESCRIPTION>band 2 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band2</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>480.0</BAND_WAVELEN>
+            <BANDWIDTH>60.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>4</BAND_INDEX>
+            <BAND_DESCRIPTION>band 3 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band3</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>560.0</BAND_WAVELEN>
+            <BANDWIDTH>60.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>5</BAND_INDEX>
+            <BAND_DESCRIPTION>band 4 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band4</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>655.0</BAND_WAVELEN>
+            <BANDWIDTH>30.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>6</BAND_INDEX>
+            <BAND_DESCRIPTION>band 5 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band5</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>865.0</BAND_WAVELEN>
+            <BANDWIDTH>30.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>7</BAND_INDEX>
+            <BAND_DESCRIPTION>band 6 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band6</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>1610.0</BAND_WAVELEN>
+            <BANDWIDTH>80.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>8</BAND_INDEX>
+            <BAND_DESCRIPTION>band 7 surface reflectance</BAND_DESCRIPTION>
+            <BAND_NAME>sr_band7</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int16</DATA_TYPE>
+            <PHYSICAL_UNIT />
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>2200.0</BAND_WAVELEN>
+            <BANDWIDTH>180.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0E-4</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>-9999.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>9</BAND_INDEX>
+            <BAND_DESCRIPTION>Aerosol Mask</BAND_DESCRIPTION>
+            <BAND_NAME>aerosol_flags</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>aerosol_flags</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Metadata" desc="LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2">
+                <MDATTR name="version" type="ascii" mode="rw">2.3</MDATTR>
+                <MDATTR name="xmlns" type="ascii" mode="rw">http://espa.cr.usgs.gov/v2</MDATTR>
+                <MDElem name="global_metadata">
+                    <MDATTR name="data_provider" type="ascii" mode="rw">USGS/EROS</MDATTR>
+                    <MDATTR name="satellite" type="ascii" mode="rw">LANDSAT_8</MDATTR>
+                    <MDATTR name="instrument" type="ascii" mode="rw">OLI_TIRS</MDATTR>
+                    <MDATTR name="acquisition_date" type="ascii" mode="rw">2017-12-30</MDATTR>
+                    <MDATTR name="scene_center_time" type="ascii" mode="rw">14:12:54.1154320Z</MDATTR>
+                    <MDATTR name="level1_production_date" type="ascii" mode="rw">2018-01-03T21:59:25Z</MDATTR>
+                    <MDATTR name="earth_sun_distance" type="ascii" mode="rw">0.983329</MDATTR>
+                    <MDATTR name="product_id" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1</MDATTR>
+                    <MDATTR name="lpgs_metadata_file" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_MTL.txt</MDATTR>
+                    <MDATTR name="orientation_angle" type="ascii" mode="rw">0.000000</MDATTR>
+                    <MDElem name="solar_angles">
+                        <MDATTR name="zenith" type="ascii" mode="rw">28.598446</MDATTR>
+                        <MDATTR name="azimuth" type="ascii" mode="rw">93.672600</MDATTR>
+                        <MDATTR name="units" type="ascii" mode="rw">degrees</MDATTR>
+                    </MDElem>
+                    <MDElem name="wrs">
+                        <MDATTR name="system" type="ascii" mode="rw">2</MDATTR>
+                        <MDATTR name="path" type="ascii" mode="rw">230</MDATTR>
+                        <MDATTR name="row" type="ascii" mode="rw">77</MDATTR>
+                    </MDElem>
+                    <MDElem name="corner">
+                        <MDATTR name="location" type="ascii" mode="rw">UL</MDATTR>
+                        <MDATTR name="latitude" type="ascii" mode="rw">-23.495930</MDATTR>
+                        <MDATTR name="longitude" type="ascii" mode="rw">-64.970290</MDATTR>
+                    </MDElem>
+                    <MDElem name="corner">
+                        <MDATTR name="location" type="ascii" mode="rw">LR</MDATTR>
+                        <MDATTR name="latitude" type="ascii" mode="rw">-25.605260</MDATTR>
+                        <MDATTR name="longitude" type="ascii" mode="rw">-62.718160</MDATTR>
+                    </MDElem>
+                    <MDElem name="bounding_coordinates">
+                        <MDATTR name="west" type="ascii" mode="rw">-65.003459</MDATTR>
+                        <MDATTR name="east" type="ascii" mode="rw">-62.718006</MDATTR>
+                        <MDATTR name="north" type="ascii" mode="rw">-23.495789</MDATTR>
+                        <MDATTR name="south" type="ascii" mode="rw">-25.605666</MDATTR>
+                    </MDElem>
+                    <MDElem name="projection_information">
+                        <MDATTR name="projection" type="ascii" mode="rw">UTM</MDATTR>
+                        <MDATTR name="datum" type="ascii" mode="rw">WGS84</MDATTR>
+                        <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        <MDATTR name="grid_origin" type="ascii" mode="rw">CENTER</MDATTR>
+                        <MDElem name="corner_point">
+                            <MDATTR name="location" type="ascii" mode="rw">UL</MDATTR>
+                            <MDATTR name="x" type="ascii" mode="rw">298800.000000</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">-2599800.000000</MDATTR>
+                        </MDElem>
+                        <MDElem name="corner_point">
+                            <MDATTR name="location" type="ascii" mode="rw">LR</MDATTR>
+                            <MDATTR name="x" type="ascii" mode="rw">528300.000000</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">-2832000.000000</MDATTR>
+                        </MDElem>
+                        <MDElem name="utm_proj_params">
+                            <MDATTR name="zone_code" type="ascii" mode="rw">20</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="bands">
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">level2_qa</MDATTR>
+                        <MDATTR name="source" type="ascii" mode="rw">level1</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">pixel_qa</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">qa</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">UINT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08PQA</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">level-2 pixel quality band</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_pixel_qa.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">quality/feature classification</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">generate_pixel_qa_1.7.2</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:40:26Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="bitmap_description">
+                            <MDATTR name="bit" type="ascii" mode="rw">fill</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">clear</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">water</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud shadow</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">snow</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud confidence</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud confidence</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cirrus confidence</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cirrus confidence</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">terrain occlusion</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">unused</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">unused</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">unused</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">unused</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">unused</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">toa_refl</MDATTR>
+                        <MDATTR name="source" type="ascii" mode="rw">level1</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">radsat_qa</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">qa</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">UINT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08RADSAT</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">saturation mask</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_radsat_qa.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">bitmap</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:41:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="bitmap_description">
+                            <MDATTR name="bit" type="ascii" mode="rw">Data Fill Flag (0 = valid data, 1 = invalid data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 1 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 2 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 3 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 4 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 5 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 6 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 7 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">N/A</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 9 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 10 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">Band 11 Data Saturation Flag (0 = valid data, 1 = saturated data)</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band1</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 1 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band1.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band2</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 2 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band2.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band3</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 3 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band3.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band4</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 4 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band4.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band5</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 5 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band5.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band6</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 6 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band6.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_band7</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">image</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">INT16</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">-9999</MDATTR>
+                        <MDATTR name="scale_factor" type="ascii" mode="rw">0.000100</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08SR</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">band 7 surface reflectance</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_band7.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">reflectance</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="valid_range">
+                            <MDATTR name="min" type="ascii" mode="rw">-2000.000000</MDATTR>
+                            <MDATTR name="max" type="ascii" mode="rw">16000.000000</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                    <MDElem name="band">
+                        <MDATTR name="product" type="ascii" mode="rw">sr_refl</MDATTR>
+                        <MDATTR name="name" type="ascii" mode="rw">sr_aerosol</MDATTR>
+                        <MDATTR name="category" type="ascii" mode="rw">qa</MDATTR>
+                        <MDATTR name="data_type" type="ascii" mode="rw">UINT8</MDATTR>
+                        <MDATTR name="nlines" type="ascii" mode="rw">7741</MDATTR>
+                        <MDATTR name="nsamps" type="ascii" mode="rw">7651</MDATTR>
+                        <MDATTR name="fill_value" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="short_name" type="ascii" mode="rw">LC08AERO</MDATTR>
+                        <MDATTR name="long_name" type="ascii" mode="rw">surface reflectance aerosol mask</MDATTR>
+                        <MDATTR name="file_name" type="ascii" mode="rw">LC08_L1TP_230077_20171230_20180103_01_T1_sr_aerosol.tif</MDATTR>
+                        <MDATTR name="resample_method" type="ascii" mode="rw">none</MDATTR>
+                        <MDATTR name="data_units" type="ascii" mode="rw">quality/feature classification</MDATTR>
+                        <MDATTR name="app_version" type="ascii" mode="rw">LaSRC_2.1.0 (Collection 1)</MDATTR>
+                        <MDATTR name="production_date" type="ascii" mode="rw">2022-05-10T16:42:02Z</MDATTR>
+                        <MDElem name="pixel_size">
+                            <MDATTR name="x" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="y" type="ascii" mode="rw">30</MDATTR>
+                            <MDATTR name="units" type="ascii" mode="rw">meters</MDATTR>
+                        </MDElem>
+                        <MDElem name="bitmap_description">
+                            <MDATTR name="bit" type="ascii" mode="rw">fill</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">valid aerosol retrieval (center pixel of NxN window)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">water pixel (or water pixel was used in the fill-the-window interpolation)</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud or cirrus</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">cloud shadow</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">non-center window pixel for which aerosol was interpolated from surrounding NxN center pixels</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">aerosol level</MDATTR>
+                            <MDATTR name="bit" type="ascii" mode="rw">aerosol level</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+            <MDElem name="history">
+                <MDElem name="SubsetInfo">
+                    <MDATTR name="SourceProduct.name" type="ascii">LC08_L1TP_230077_20171230_20180103_01_T1 - Level 2</MDATTR>
+                    <MDATTR name="SubSampling.x" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="SubSampling.y" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="SubRegion.x" type="int32" mode="rw">1524</MDATTR>
+                    <MDATTR name="SubRegion.y" type="int32" mode="rw">5043</MDATTR>
+                    <MDATTR name="SubRegion.width" type="int32" mode="rw">2401</MDATTR>
+                    <MDATTR name="SubRegion.height" type="int32" mode="rw">1541</MDATTR>
+                    <MDATTR name="ProductNodeName.1" type="ascii">pixel_qa</MDATTR>
+                    <MDATTR name="ProductNodeName.2" type="ascii">saturation</MDATTR>
+                    <MDATTR name="ProductNodeName.3" type="ascii">sr_band1</MDATTR>
+                    <MDATTR name="ProductNodeName.4" type="ascii">sr_band2</MDATTR>
+                    <MDATTR name="ProductNodeName.5" type="ascii">sr_band3</MDATTR>
+                    <MDATTR name="ProductNodeName.6" type="ascii">sr_band4</MDATTR>
+                    <MDATTR name="ProductNodeName.7" type="ascii">sr_band5</MDATTR>
+                    <MDATTR name="ProductNodeName.8" type="ascii">sr_band6</MDATTR>
+                    <MDATTR name="ProductNodeName.9" type="ascii">sr_band7</MDATTR>
+                    <MDATTR name="ProductNodeName.10" type="ascii">aerosol_flags</MDATTR>
+                    <MDATTR name="ProductNodeName.11" type="ascii">Metadata</MDATTR>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>

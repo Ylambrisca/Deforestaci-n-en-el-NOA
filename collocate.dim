@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="collocate.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.12.1">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>collocate</DATASET_NAME>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>COLLOCATED</PRODUCT_TYPE>
+        <PRODUCT_SCENE_RASTER_START_TIME>07-JAN-1986 13:40:17.607000</PRODUCT_SCENE_RASTER_START_TIME>
+        <PRODUCT_SCENE_RASTER_STOP_TIME>07-JAN-1986 13:40:17.607000</PRODUCT_SCENE_RASTER_STOP_TIME>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 20N", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator"], 
+               PARAMETER["central_meridian", -62.99999999999999], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 0.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32620"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Flag_Coding name="pixel_qa_M">
+        <Flag>
+            <Flag_Name>fill</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>clear</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Clear</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>water</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Water</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>snow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Snow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Cloud</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_one</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Cloud confidence bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_two</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Cloud confidence bit two</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="cloud_qa_M">
+        <Flag>
+            <Flag_Name>ddv</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Dense dark vegetation</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Cloud</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>adjacent_cloud</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Adjacent to cloud</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>snow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Snow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>land_water</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Land/water</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="ndvi_flags_M">
+        <Flag>
+            <Flag_Name>NDVI_ARITHMETIC</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>NDVI value calculation failed due to an arithmetic exception</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>NDVI_NEGATIVE</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>NDVI value is too low</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>NDVI_SATURATION</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>NDVI value is too high</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="pixel_qa_S">
+        <Flag>
+            <Flag_Name>fill</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>clear</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Clear</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>water</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Water</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>snow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Snow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Cloud</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_one</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Cloud confidence bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_confidence_two</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Cloud confidence bit two</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cirrus_confidence_one</Flag_Name>
+            <Flag_Index>256</Flag_Index>
+            <Flag_description>Cirrus confidence bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cirrus_confidence_two</Flag_Name>
+            <Flag_Index>512</Flag_Index>
+            <Flag_description>Cirrus confidence bit two</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>terrain_oclusion</Flag_Name>
+            <Flag_Index>1024</Flag_Index>
+            <Flag_description>Terrain Occlusion</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="saturation_S">
+        <Flag>
+            <Flag_Name>data_fill_flag</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Designated Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band1_saturated</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>Band 1 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band2_saturated</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>Band 2 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band3_saturated</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Band 3 Data Saturation Fla</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band4_saturated</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Band 4 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band5_saturated</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>Band 5 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band6_saturated</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Band 6 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band7_saturated</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Band 7 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band8_saturated</Flag_Name>
+            <Flag_Index>256</Flag_Index>
+            <Flag_description>N/A</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band9_saturated</Flag_Name>
+            <Flag_Index>512</Flag_Index>
+            <Flag_description>Band 9 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band10_saturated</Flag_Name>
+            <Flag_Index>1024</Flag_Index>
+            <Flag_description>Band 10 Data Saturation Flag</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>Band11_saturated</Flag_Name>
+            <Flag_Index>2048</Flag_Index>
+            <Flag_description>Band 11 Data Saturation Flag</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="aerosol_flags_S">
+        <Flag>
+            <Flag_Name>fill</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Fill</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>valid_aerosol_retrieval</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>valid aerosol retrieval (center pixel of NxN window)</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>water</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>water pixel (or water pixel was used in the fill-the-window interpolation)</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_cirrus</Flag_Name>
+            <Flag_Index>8</Flag_Index>
+            <Flag_description>Cloud or cirrus</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>cloud_shadow</Flag_Name>
+            <Flag_Index>16</Flag_Index>
+            <Flag_description>Cloud Shadow</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>non_center</Flag_Name>
+            <Flag_Index>32</Flag_Index>
+            <Flag_description>non-center window pixel for which aerosol was interpolated from surrounding NxN center pixels</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>aerosol_level_one</Flag_Name>
+            <Flag_Index>64</Flag_Index>
+            <Flag_description>Aerosol level bit one</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>aerosol_level_two</Flag_Name>
+            <Flag_Index>128</Flag_Index>
+            <Flag_description>Aerosol level bit two</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="ndvi_flags_S">
+        <Flag>
+            <Flag_Name>NDVI_ARITHMETIC</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>NDVI value calculation failed due to an arithmetic exception</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>NDVI_NEGATIVE</Flag_Name>
+            <Flag_Index>2</Flag_Index>
+            <Flag_description>NDVI value is too low</Flag_description>
+        </Flag>
+        <Flag>
+            <Flag_Name>NDVI_SATURATION</Flag_Name>
+            <Flag_Index>4</Flag_Index>
+            <Flag_description>NDVI value is too high</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Flag_Coding name="collocationFlags">
+        <Flag>
+            <Flag_Name>SLAVE_PRESENT</Flag_Name>
+            <Flag_Index>1</Flag_Index>
+            <Flag_description>Data for the slave is present.</Flag_description>
+        </Flag>
+    </Flag_Coding>
+    <Raster_Dimensions>
+        <NCOLS>2401</NCOLS>
+        <NROWS>1541</NROWS>
+        <NBANDS>10</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/ndvi_M.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/pixel_qa_M.hdr" />
+            <BAND_INDEX>1</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/cloud_qa_M.hdr" />
+            <BAND_INDEX>2</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/ndvi_flags_M.hdr" />
+            <BAND_INDEX>3</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/ndvi_S.hdr" />
+            <BAND_INDEX>4</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/pixel_qa_S.hdr" />
+            <BAND_INDEX>5</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/saturation_S.hdr" />
+            <BAND_INDEX>6</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/aerosol_flags_S.hdr" />
+            <BAND_INDEX>7</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/ndvi_flags_S.hdr" />
+            <BAND_INDEX>8</BAND_INDEX>
+        </Data_File>
+        <Data_File>
+            <DATA_FILE_PATH href="collocate.data/collocationFlags.hdr" />
+            <BAND_INDEX>9</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Image_Display>
+        <Band_Statistics>
+            <BAND_INDEX>0</BAND_INDEX>
+            <STX_MIN>0.002912018448114395</STX_MIN>
+            <STX_MAX>0.8777588605880737</STX_MAX>
+            <STX_MEAN>0.6773224317053714</STX_MEAN>
+            <STX_STD_DEV>0.1459071307958376</STX_STD_DEV>
+            <STX_RES_LEVEL>3</STX_RES_LEVEL>
+            <HISTOGRAM>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,2,6,0,0,0,0,0,21,4,0,0,0,0,12,7,1,0,0,3,10,12,0,0,1,0,14,3,0,2,0,6,8,10,3,2,1,5,5,7,6,4,8,6,3,7,4,5,7,18,10,13,11,14,18,8,9,21,18,15,22,21,20,24,30,25,29,25,32,34,38,31,40,52,41,47,37,61,59,51,57,56,62,55,64,65,58,64,66,68,71,76,68,59,56,44,41,45,49,45,46,52,48,37,46,52,48,44,50,42,42,56,32,38,36,21,47,38,27,36,34,38,31,33,32,35,24,38,33,39,35,27,21,22,26,24,23,26,33,30,19,29,32,25,30,20,28,27,29,22,20,26,21,16,19,21,22,20,26,21,25,13,21,22,26,20,20,26,14,16,16,15,22,18,17,23,17,28,23,23,19,20,17,21,23,11,24,22,25,22,19,12,33,25,20,16,21,21,21,17,18,17,34,19,12,12,19,21,19,24,18,16,18,26,21,18,21,13,17,21,21,24,25,23,19,25,24,25,27,26,30,14,14,20,24,28,23,24,23,28,20,24,19,30,23,34,30,31,22,29,36,27,24,28,36,33,31,35,38,34,21,38,30,29,36,45,39,44,37,33,36,43,43,37,50,37,28,67,40,16,100,32,27,77,57,39,48,80,32,70,72,65,55,77,82,77,78,82,54,100,79,63,78,135,89,99,166,81,95,136,92,119,139,114,169,203,152,220,187,157,232,252,148,239,314,133,386,346,92,486,246,117,693,108,311,643,107,626,417,190,840,243,451,532,228,549,430,375,681,328,439,533,331,657,325,600,343,468,462,470,366,382,526,346,632,332,564,359,576,326,540,398,415,450,427,456,451,412,465,402,404,463,415,433,430,452,385,428,385,423,372,410,385,387,404,396,382,409,347,399,328,377,355,297,352,340,277,330,355,326,284,345,317,300,290,334,317,278,355,311,364,304,368,341,328,338,355,365,352,336,352,323,335,344,344,304,274,268,282,256,232,218,174,171,153,120,119,90,76,75,68,60,34,28,19,18,18,10,5,9,7,6,2,0,2</HISTOGRAM>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.19941082088189432</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.5155175900144968</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.8316243591470993</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+        <Band_Statistics>
+            <BAND_INDEX>4</BAND_INDEX>
+            <STX_MIN>-0.7061855792999268</STX_MIN>
+            <STX_MAX>0.9116643667221069</STX_MAX>
+            <STX_MEAN>0.5072612987693884</STX_MEAN>
+            <STX_STD_DEV>0.2356299271985456</STX_STD_DEV>
+            <STX_RES_LEVEL>3</STX_RES_LEVEL>
+            <HISTOGRAM>2,0,0,0,1,0,2,3,3,2,1,6,1,6,4,2,5,1,6,5,6,7,2,0,1,3,3,3,4,3,0,5,1,5,3,7,3,4,2,4,2,2,3,2,6,5,3,2,3,2,0,1,2,0,3,3,0,1,3,3,0,0,1,4,3,1,7,2,1,1,2,2,3,0,2,4,2,1,2,0,3,1,0,3,2,1,2,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1,1,0,1,1,0,0,0,0,1,0,1,0,1,2,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,2,2,0,0,0,1,1,0,0,2,1,1,2,0,1,1,1,4,3,2,5,8,6,4,3,13,14,14,13,11,13,15,22,24,33,47,70,102,129,235,304,419,566,622,795,870,955,953,934,837,796,773,706,635,611,584,530,520,468,468,439,368,384,336,328,311,300,285,256,249,251,243,228,238,212,223,172,214,217,177,194,189,173,191,156,147,165,174,163,175,195,151,172,140,145,134,174,144,156,138,149,147,148,151,152,160,153,158,153,123,129,137,163,142,144,167,159,120,132,137,158,133,148,139,160,142,141,140,137,155,164,167,169,150,163,163,145,154,168,167,157,153,164,155,156,170,199,141,162,160,189,181,174,183,174,150,184,158,137,163,169,154,158,191,165,197,155,161,192,185,158,195,212,179,185,203,174,227,210,212,204,210,241,247,238,219,261,269,277,281,262,280,281,281,311,319,325,294,319,325,329,365,309,343,336,314,377,364,364,349,374,389,338,388,372,392,360,391,392,390,392,389,374,374,365,320,333,360,330,341,339,306,307,313,290,304,288,273,275,252,258,240,239,211,216,197,220,184,184,153,162,126,90,78,67,53,36,33,19,12,9,6,2,3</HISTOGRAM>
+            <NUM_COLORS>256</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.19121556263417006</SAMPLE>
+                <COLOR red="0" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.5166814697440714</SAMPLE>
+                <COLOR red="128" green="128" blue="128" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>0.8421473768539727</SAMPLE>
+                <COLOR red="255" green="255" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+    </Image_Display>
+    <Masks>
+        <Mask type="Maths">
+            <NAME value="Fill_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Fill" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.fill" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Clear_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Clear" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.clear" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Water_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Water" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Shadow_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Shadow" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Snow_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Snow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.snow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.cloud" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_None_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence None" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_M.cloud_confidence_one and not pixel_qa_M.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Low_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Low" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_M.cloud_confidence_one and pixel_qa_M.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Medium_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Medium" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.cloud_confidence_one and not pixel_qa_M.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_High_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence High" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_M.cloud_confidence_one and pixel_qa_M.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_DDV_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Dense dark vegetation" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.ddv" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_Cloud_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.cloud" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_cloud_shadow_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud shadow" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_adjacent_cloud_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Adjacent to cloud" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.adjacent_cloud" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_snow_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Snow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.snow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="cloud_qa_land_water_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Land/water" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="cloud_qa_M.land_water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_ARITHMETIC_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="An arithmetic exception occurred." />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_M.NDVI_ARITHMETIC" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_NEGATIVE_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="NDVI value is too low." />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_M.NDVI_NEGATIVE" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_SATURATION_M" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="NDVI value is too high." />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_M.NDVI_SATURATION" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Fill_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Fill" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.fill" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Clear_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Clear" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.clear" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Water_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Water" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Shadow_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Shadow" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Snow_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Snow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.snow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cloud" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_None_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence None" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_S.cloud_confidence_one and not pixel_qa_S.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Low_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Low" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_S.cloud_confidence_one and pixel_qa_S.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_Medium_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence Medium" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cloud_confidence_one and not pixel_qa_S.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cloud_Confidence_High_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cloud Confidence High" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cloud_confidence_one and pixel_qa_S.cloud_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_None_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence None" />
+            <COLOR red="178" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_S.cirrus_confidence_one and not pixel_qa_S.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_Low_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence Low" />
+            <COLOR red="124" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not pixel_qa_S.cirrus_confidence_one and pixel_qa_S.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_Medium_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence Medium" />
+            <COLOR red="255" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cirrus_confidence_one and not pixel_qa_S.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Cirrus_Confidence_High_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Cirrus Confidence High" />
+            <COLOR red="178" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.cirrus_confidence_one and pixel_qa_S.cirrus_confidence_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Terrain_Oclusion_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Terrain Oclusion" />
+            <COLOR red="124" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="pixel_qa_S.terrain_oclusion" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="No saturation_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="No bands contain saturation" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not saturation_S.data_fill_flag" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 1 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 1 saturated" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band1_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 2 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 2 saturated" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band2_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 3 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 3 saturated" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band3_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 4 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 4 saturated" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band4_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 5 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 5 saturated" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band5_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 6 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 6 saturated" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band6_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 7 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 7 saturated" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band7_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 9 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 9 saturated" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band9_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 10 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 10 saturated" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band10_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Band 11 saturated_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Band 11 saturated" />
+            <COLOR red="178" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="saturation_S.Band11_saturated" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Fill_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Fill" />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.fill" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Valid_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Valid aerosol retrieval" />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.valid_aerosol_retrieval" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_Water_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="water pixel" />
+            <COLOR red="124" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.water" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_cloud_cirrus_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="cloud/cirrus" />
+            <COLOR red="0" green="0" blue="255" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.cloud_cirrus" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_cloud_shadow_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="cloud shadow" />
+            <COLOR red="0" green="0" blue="178" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.cloud_shadow" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="Aerosol_non_center_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="non-center window pixel for which aerosol was interpolated from surrounding NxN center pixels" />
+            <COLOR red="0" green="0" blue="124" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.non_center" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_climatology_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level climatology" />
+            <COLOR red="0" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not aerosol_flags_S.aerosol_level_one and not aerosol_flags_S.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_low_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level low" />
+            <COLOR red="0" green="178" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="not aerosol_flags_S.aerosol_level_one and aerosol_flags_S.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_medium_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level medium" />
+            <COLOR red="0" green="124" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.aerosol_level_one and not aerosol_flags_S.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="aerosol_level_high_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="Aerosol level high" />
+            <COLOR red="255" green="255" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.5" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="aerosol_flags_S.aerosol_level_one and aerosol_flags_S.aerosol_level_two" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_ARITHMETIC_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="An arithmetic exception occurred." />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_S.NDVI_ARITHMETIC" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_NEGATIVE_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="NDVI value is too low." />
+            <COLOR red="255" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_S.NDVI_NEGATIVE" />
+        </Mask>
+        <Mask type="Maths">
+            <NAME value="NDVI_SATURATION_S" />
+            <MASK_RASTER_WIDTH value="2401" />
+            <MASK_RASTER_HEIGHT value="1541" />
+            <DESCRIPTION value="NDVI value is too high." />
+            <COLOR red="178" green="0" blue="0" alpha="255" />
+            <TRANSPARENCY value="0.7" />
+            <IMAGE_TO_MODEL_TRANSFORM value="30.0,0.0,0.0,-30.0,344505.0,-2751075.0" />
+            <EXPRESSION value="ndvi_flags_S.NDVI_SATURATION" />
+        </Mask>
+    </Masks>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION />
+            <BAND_NAME>ndvi_M</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>NaN</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>1</BAND_INDEX>
+            <BAND_DESCRIPTION>Quality Band</BAND_DESCRIPTION>
+            <BAND_NAME>pixel_qa_M</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint16</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>pixel_qa_M</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>2</BAND_INDEX>
+            <BAND_DESCRIPTION>Cloud QA Band</BAND_DESCRIPTION>
+            <BAND_NAME>cloud_qa_M</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>cloud_qa_M</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>3</BAND_INDEX>
+            <BAND_DESCRIPTION>NDVI specific flags</BAND_DESCRIPTION>
+            <BAND_NAME>ndvi_flags_M</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int32</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>ndvi_flags_M</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>false</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>4</BAND_INDEX>
+            <BAND_DESCRIPTION />
+            <BAND_NAME>ndvi_S</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>NaN</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>5</BAND_INDEX>
+            <BAND_DESCRIPTION>Quality Band</BAND_DESCRIPTION>
+            <BAND_NAME>pixel_qa_S</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint16</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>pixel_qa_S</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>6</BAND_INDEX>
+            <BAND_DESCRIPTION>Saturation Band</BAND_DESCRIPTION>
+            <BAND_NAME>saturation_S</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint16</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>saturation_S</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>7</BAND_INDEX>
+            <BAND_DESCRIPTION>Aerosol Mask</BAND_DESCRIPTION>
+            <BAND_NAME>aerosol_flags_S</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>aerosol_flags_S</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>1.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>8</BAND_INDEX>
+            <BAND_DESCRIPTION>NDVI specific flags</BAND_DESCRIPTION>
+            <BAND_NAME>ndvi_flags_S</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int32</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>ndvi_flags_S</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>false</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+        <Spectral_Band_Info>
+            <BAND_INDEX>9</BAND_INDEX>
+            <BAND_DESCRIPTION />
+            <BAND_NAME>collocationFlags</BAND_NAME>
+            <BAND_RASTER_WIDTH>2401</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>1541</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>int8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <FLAG_CODING_NAME>collocationFlags</FLAG_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>false</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,344505.0,-2751075.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">NdviOp$1818ECB06F3</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">NdviOp</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP NDVI Processor</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">8.0.9</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">The retrieves the Normalized Difference Vegetation Index (NDVI).</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Maximilian Aulinger, Thomas Storm</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2016 by Brockmann Consult (info@brockmann-consult.de)</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2022-06-23T04:21:19.225Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">product:[4] subset_1_of_LT05_L1TP_230077_19860107_20170218_01_T1 - Level 2</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="nirFactor" type="ascii">1.0</MDATTR>
+                        <MDATTR name="redFactor" type="ascii">1.0</MDATTR>
+                        <MDATTR name="nirSourceBand" type="ascii">sr_band4</MDATTR>
+                        <MDATTR name="redSourceBand" type="ascii">sr_band3</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.1">
+                    <MDATTR name="id" type="ascii" mode="rw">Write$1818ECB0726</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Write</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">8.0.9</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Writes a data product to a file.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2010 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2022-06-23T04:21:19.275Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/ylamb/subset_1_of_LT05_L1TP_230077_19860107_20170218_01_T1%20-%20Level%202_ndvi.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="writeEntireTileRows" type="ascii">true</MDATTR>
+                        <MDATTR name="file" type="ascii">C:\Users\ylamb\subset_1_of_LT05_L1TP_230077_19860107_20170218_01_T1 - Level 2_ndvi.dim</MDATTR>
+                        <MDATTR name="deleteOutputOnFailure" type="ascii">true</MDATTR>
+                        <MDATTR name="formatName" type="ascii">BEAM-DIMAP</MDATTR>
+                        <MDATTR name="clearCacheAfterRowWrite" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.2">
+                    <MDATTR name="id" type="ascii" mode="rw">Collocate$1818ECFCCE2</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Collocate</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Collocation Operator</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">8.0.9</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Collocates two products based on their geo-codings.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Ralf Quast, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.2</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2007-2011 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2022-06-23T04:26:32.043Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="master" type="ascii" mode="rw">file:/C:/Users/ylamb/subset_1_of_LT05_L1TP_230077_19860107_20170218_01_T1%20-%20Level%202_ndvi.dim</MDATTR>
+                        <MDATTR name="slave0" type="ascii" mode="rw">file:/C:/Users/ylamb/subset_0_of_LC08_L1TP_230077_20171230_20180103_01_T1%20-%20Level%202_ndvi.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="resamplingType" type="ascii">NEAREST_NEIGHBOUR</MDATTR>
+                        <MDATTR name="targetProductType" type="ascii">COLLOCATED</MDATTR>
+                        <MDATTR name="masterProductName" type="ascii">subset_1_of_LT05_L1TP_230077_19860107_20170218_01_T1 - Level 2_ndvi</MDATTR>
+                        <MDATTR name="masterComponentPattern" type="ascii">${ORIGINAL_NAME}_M</MDATTR>
+                        <MDATTR name="slaveComponentPattern" type="ascii">${ORIGINAL_NAME}_S${SLAVE_NUMBER_ID}</MDATTR>
+                        <MDATTR name="renameMasterComponents" type="ascii">true</MDATTR>
+                        <MDATTR name="renameSlaveComponents" type="ascii">true</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.3">
+                    <MDATTR name="id" type="ascii" mode="rw">Write$1818ECFCD00</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Write</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">8.0.9</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Writes a data product to a file.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2010 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2022-06-23T04:26:32.067Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/ylamb/collocate.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="writeEntireTileRows" type="ascii">true</MDATTR>
+                        <MDATTR name="file" type="ascii">C:\Users\ylamb\collocate.dim</MDATTR>
+                        <MDATTR name="deleteOutputOnFailure" type="ascii">true</MDATTR>
+                        <MDATTR name="formatName" type="ascii">BEAM-DIMAP</MDATTR>
+                        <MDATTR name="clearCacheAfterRowWrite" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>
